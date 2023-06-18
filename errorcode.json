@@ -1,0 +1,58 @@
+{
+    "errorcode": [
+        {
+            "status": "Proces i gang",
+            "alertStatus": "ok",
+            "clarification": "Generatoren er i gang med at producere Neuthox.",
+            "place": "Dosering",
+            "color":"okColor"
+           
+
+        },
+        
+        {
+            "status": "Blødgøring snart tom, få dage tilbage",
+            "alertStatus": "warning",
+            "clarification":"Blødgøringspatronen er snart brugt op og bør skiftes.",
+            "place": "Dosering",
+            "color":"warningColor"
+           
+        },
+        
+        {
+            "status":"Læk alarm",
+            "alertStatus": "alarm",
+            "clarification":"Produktionen er stoppet fordi lækføleren i spildbakken påvirkes.",
+            "place": "Drift",
+            "color":"alarmColor"
+          
+        },
+        {
+            "status": "Proces stoppet- max.niveau",
+            "alertStatus": "ok",
+            "clarification": "Generatoren er stoppet fordi Neuthoxtanken er fuld.",
+            "place": "Dosering",
+            "color":"okColor"
+          
+
+        },
+        {
+            "status": "Vandpumpen kræver service",
+            "alertStatus": "warning",
+            "clarification":"Det er tid til at efterse vandpumpen.",
+            "place": "Drift",
+            "color":"warningColor"
+           
+        },
+        {
+            "status":  "Ingen salt",
+            "alertStatus": "alarm",
+            "clarification":"Generatioren er stoppet, fordi der ikke er mere salt i beholderen",
+            "place": "Dosering",
+            "color":"alarmColor"
+           
+        }
+        
+    
+    ]
+}
